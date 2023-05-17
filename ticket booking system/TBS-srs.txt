@@ -1,0 +1,37 @@
+
+Title:
+   Requirement specification for Ticket Booking System
+   
+ Functional Requirements:
+    User Registration
+	     new user should be registered , user should be able to do process upto booking ticket,
+		 while confirming seats new user must be gets registered first.
+		 
+	User Login:
+	     for every booking user should log in with username , password and for confirmation captcha generation should be there
+		 
+	Travel details;
+	    source and destination should be entered.travel route shows available mode of transport
+	Mode of transport:
+	    transport modes must categorised by the availabilty of modes according to the travel route.
+	     and also number of transports facilites departure time and destination arriaval time.
+		
+	seat booking:
+	    Seats vacancy with the rate of each seat should displayed and user should able to choose the seat according to that 
+		and then user should enter passenger details with total amount.
+		
+	Payment gateway:
+	    gateways like UPI,net banking , credit card , debit card, BHIM UPI etc.,should be able to choose and like wise 
+		details should be entered and get the payment done.
+	Confirmation:
+	    after payment , payment confirmation should be there to sure the transaction ,it should display transaction id
+		payment amount and mode of payment
+	ticket generation:
+	    after the transaction ticket will be automatically genearated and sent to the customers contact details,this should contains transaction details
+		confirmed seat details.
+	ticket cancellation:
+	    if the user wants to cancel the tickert then confirm cancellation by taking inputs as Ticket id and otp for cancellation,
+		%amount of money should be deducted from the refund amount.
+	logOut/delete account:
+	    take confirmation asking yes or no fro log out and for account deletion confirm user credentials.
+	     

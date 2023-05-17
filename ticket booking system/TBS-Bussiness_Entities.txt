@@ -1,0 +1,30 @@
+Bussines Entities for Ticket Booking Website:
+
+customer:
+    CustomerId, Customer_FirstName, Customer_LastName,Email,ContactNO;
+	
+Mode_OF_Transport:
+    TransId,Trans_Name;
+	
+Train:
+   Train_id, Train_name,Train_Route,Transid;
+
+Airline:
+   Airline_id,Airline_name,Airline_Route,TransId;
+   
+Route: 
+   Routeid,From,To;
+Ticket :
+   ticket_id,trans_id,train_id,CustomerId,Customer_FirstName, Customer_LastName;
+   
+Payments:
+	Paymentid, Ticket_id, Payament_date, Amount, status,TransationId ;
+	
+Transations:
+	TransactionId,Transaction_date,mode,from_account,to_account,Amount;
+
+TrainList/Airline Availabitly list:
+    Routeid,TransId,Train_id/Airline_id;
+	
+Refund:
+    Ticket_id,Refund_amount,status;

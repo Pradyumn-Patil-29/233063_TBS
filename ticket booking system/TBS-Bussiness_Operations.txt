@@ -1,0 +1,30 @@
+bussines operations:
+
+register user
+user login
+TravelFrom Address
+TravelTo address
+Mode Of Transport
+category
+IfQouata
+confirm route details
+show seats availabilty 
+Passenger Details
+add / remove passenger
+Passengerlist confirmation
+extra add ons
+show fairamount confirmation
+mode of payment
+payment gateway details
+availble seats status
+make payment
+payment confirmation
+ticket generation
+ticket cancellation
+refund status
+wallet add ons
+notification generation
+user logout
+delete account
+
+
